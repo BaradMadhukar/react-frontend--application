@@ -1,0 +1,27 @@
+.logout-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .logout-text {
+    font-size: 1.5rem;
+    color: #0078D4; /* Outlook blue for consistency */
+    animation: fadeOut 1.5s ease-in-out forwards;
+  }
+  
+  /* Optional: fade-out animation */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
